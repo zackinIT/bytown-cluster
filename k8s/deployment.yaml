@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bytown-web
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: bytown-web
+  template:
+    metadata:
+      labels:
+        app: bytown-web
+    spec:
+      containers:
+        - name: web
+          image: bytown-web:1.1
+          ports:
+            - containerPort: 80

@@ -1,0 +1,4 @@
+NAME                          READY   STATUS    RESTARTS   AGE
+bytown-web-79559d4cb5-lqj2n   1/1     Running   0          12m
+bytown-web-79559d4cb5-rb8vj   1/1     Running   0          12m
+bytown-web-79559d4cb5-xlfvc   1/1     Running   0          28s

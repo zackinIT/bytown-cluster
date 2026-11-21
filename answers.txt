@@ -1,0 +1,7 @@
+Q1: In Part 1, the Docker Swarm manager detected that the actual state didn't match the desired state of 3 replicas, and scheduled a replacement task.
+In Part 3, the Kubernetes Deployment controller detected the missing Pod and created a replacement to restore the desired number of replicas.
+
+Q2: Docker Swarm is simpler to set up and manage. K3s provides Kubernetes functionality with lower resource usage and a simpler installation than a full Kubernetes distribution.
+
+Q3:Kubernetes rolls out the update gradually, replacing old pods with new ones. It waits for each new pod to become ready before terminating the old one, allowing the existing pods to continue running and serving traffic without downtime.
+

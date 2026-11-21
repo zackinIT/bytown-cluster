@@ -1,0 +1,4 @@
+NAME                  STATUS   ROLES           AGE    VERSION
+k3d-bytown-agent-0    Ready    <none>          102s   v1.35.5+k3s1
+k3d-bytown-agent-1    Ready    <none>          102s   v1.35.5+k3s1
+k3d-bytown-server-0   Ready    control-plane   105s   v1.35.5+k3s1
